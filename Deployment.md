@@ -62,3 +62,5 @@ To populate your MongoDB Atlas cluster with demo products and accounts, run loca
 ```bash
 MONGODB_URI="your_atlas_connection_string" npm run seed
 ```
+git add Deployment.md
+git commit -m "chore: update deployment configuration guide"
