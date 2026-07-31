@@ -83,3 +83,25 @@ Visit `http://localhost:3000` in your web browser.
 ## ⚡ Deployment Guide (Vercel + MongoDB Atlas)
 
 Please refer to [`Deployment.md`](./Deployment.md) for full step-by-step instructions on deploying the project seamlessly to **Vercel** as Serverless Functions and connecting to **MongoDB Atlas**.
+
+
+## Features
+
+- User Authentication
+- Product Management
+- Shopping Cart
+- Order Management
+- Admin Dashboard
+- Responsive UI
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB
