@@ -1,0 +1,32 @@
+{
+  "name": "shopsphere-ecommerce",
+  "version": "1.0.0",
+  "description": "Production-Ready Full Stack E-Commerce Web Application",
+  "main": "api/index.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "backend": "npm run dev --prefix backend",
+    "dev": "concurrently \"npm run backend\" \"npm run client\"",
+    "build": "npm run install:client && npm run install:backend && npm run build:client",
+    "build:client": "cd client && npm run build",
+    "install:client": "cd client && npm install",
+    "install:backend": "cd backend && npm install",
+    "seed": "cd backend && node seed.js",
+    "start": "cd backend && node server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "mongodb",
+    "tailwind",
+    "vercel"
+  ],
+  "author": "ShopSphere Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
