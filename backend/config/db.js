@@ -10,7 +10,6 @@ const connectDB = async () => {
   const isProduction = process.env.NODE_ENV === "production";
 
   console.log("DNS Servers:", dns.getServers());
-  console.log("MONGODB_URI =", connStr);
 
   // 1. Connect to MongoDB Atlas
   if (connStr) {
